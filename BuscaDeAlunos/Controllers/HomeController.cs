@@ -17,7 +17,7 @@ namespace BuscaDeAlunos.Controllers
             return View();
         }
 
-        public void Savar(string RA)
+        public void Salvar(string RA)
         {
 
             MapaBusiness.Salvar(RA);

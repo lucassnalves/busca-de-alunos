@@ -42,6 +42,5 @@ C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\BuscaDeAlun
 C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\BuscaDeAlunos\bin\System.Web.WebPages.xml
 C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\BuscaDeAlunos\bin\System.Web.WebPages.Deployment.xml
 C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\BuscaDeAlunos\bin\System.Web.WebPages.Razor.xml
-C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\BuscaDeAlunos\obj\Debug\BuscaDeAlunos.csprojResolveAssemblyReference.cache
 C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\BuscaDeAlunos\obj\Debug\BuscaDeAlunos.dll
 C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\BuscaDeAlunos\obj\Debug\BuscaDeAlunos.pdb
