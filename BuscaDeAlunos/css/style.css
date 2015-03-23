@@ -1,0 +1,22 @@
+﻿html, body, #map-canvas
+{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+#busca
+{
+    position: absolute;
+    z-index: 10;
+    top: 10px;
+    left: 80px;
+}
+
+#Lista
+{
+    position: absolute;
+    z-index: 10;
+    top: 50px;
+    left: 80px;
+}

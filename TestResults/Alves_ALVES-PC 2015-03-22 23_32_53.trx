@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="6e3c1284-16f0-427f-ad36-75b29e6e46a7" name="Alves@ALVES-PC 2015-03-22 23:32:53" runUser="Alves-PC\Alves" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="897119cd-d1d2-4bb5-b7b3-ee7bdef959bb">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment enabled="false" runDeploymentRoot="Alves_ALVES-PC 2015-03-22 23_32_53">
+      <DeploymentItem filename="C:\Users\Alves\Documents\Visual Studio 2010\Projects\BuscaDeAlunos\BuscaDeAlunos\bin\BuscaDeAlunos.dll" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2015-03-22T23:32:53.7117725-03:00" queuing="2015-03-22T23:32:54.5668214-03:00" start="2015-03-22T23:32:54.6878284-03:00" finish="2015-03-22T23:32:54.7438316-03:00" />
+  <ResultSummary outcome="NotRunnable">
+    <Counters total="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="1" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestSalvar" storage="c:\users\alves\documents\visual studio 2010\projects\buscadealunos\testbuscadealunos\bin\debug\testbuscadealunos.dll" id="d559a96a-4c07-abb4-9d7f-b60478958b97">
+      <Execution id="42163d20-3790-4da6-9a8a-6e8341809207" />
+      <TestMethod codeBase="C:/Users/Alves/Documents/Visual Studio 2010/Projects/BuscaDeAlunos/TestBuscaDeAlunos/bin/Debug/TestBuscaDeAlunos.DLL" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="TestBuscaDeAlunos.TestaBusiness, TestBuscaDeAlunos, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null" name="TestSalvar" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="d559a96a-4c07-abb4-9d7f-b60478958b97" executionId="42163d20-3790-4da6-9a8a-6e8341809207" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="42163d20-3790-4da6-9a8a-6e8341809207" testId="d559a96a-4c07-abb4-9d7f-b60478958b97" testName="TestSalvar" computerName="ALVES-PC" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="NotRunnable" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="42163d20-3790-4da6-9a8a-6e8341809207">
+      <Output>
+        <ErrorInfo>
+          <Message>UTA007: Method TestSalvar defined in class TestBuscaDeAlunos.TestaBusiness does not have correct signature. Test method marked with the [TestMethod] attribute must be non-static, public, does not return a value and should not take any parameter. for example: public void Test.Class1.Test().</Message>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

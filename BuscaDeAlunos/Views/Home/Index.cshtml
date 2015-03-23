@@ -1,0 +1,59 @@
+﻿@{
+    ViewBag.Title = "Index";
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Busca de Alunos</title>
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp"></script>
+    <script src="~/Scripts/jquery-1.11.2.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="~/Scripts/Mapa.js"></script>
+    <script src="~/Scripts/Uteis.js"></script>
+    <script>
+        $(function () {
+
+            $("form").submit(function () { return false; });
+
+            $("#txtRA").keypress(verificaNumero);
+
+            $("#btPesquisar").click(function () {
+                buscaRA($("#txtRA").val());
+            });
+
+            $('#txtRA').keypress(function (e) {
+                if (e.which == 13) {
+                    jQuery(this).blur();
+                    buscaRA($("#txtRA").val());
+                }
+            });
+
+            BuscaLista();
+        })
+
+    </script>
+</head>
+<body>
+    <div id="map-canvas">
+    </div>
+    <div id="busca">
+        <form class="form-inline">
+        <div class="form-group">
+            <input type="text" size="35" maxlength="15" name="txtRA" id="txtRA" placeholder="Digite o RA do Aluno"
+                class="form-control" />
+        </div>
+        <input type="button" name="btPesquisar" id="btPesquisar" value="Pesquisar" class="btn btn-default" />
+        </form>
+    </div>
+    <div id="Lista" class="dropdown">
+        <button class="btn btn-default dropdown-toggle" type="button" id="menu1" data-toggle="dropdown">
+            Pesquisas recentes <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu" role="menu" aria-labelledby="menu1" id="ulLista">
+        </ul>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+﻿@model List<string>
+@foreach (var RA in Model)
+{
+    <li role="presentation">
+        <a role="menuitem" onclick="$('#txtRA').val('@RA');buscaRA('@RA');">
+            @RA
+        </a>
+    </li>
+}
