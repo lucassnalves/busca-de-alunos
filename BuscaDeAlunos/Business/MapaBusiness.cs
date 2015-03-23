@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Web;
 using System.IO;
-using System.Reflection;
-using BuscaDeAlunos.Controllers;
 using System.Web.Configuration;
 
 namespace BuscaDeAlunos.Business
@@ -14,7 +10,7 @@ namespace BuscaDeAlunos.Business
         public static void Salvar(string RA)
         {
             string path = WebConfigurationManager.AppSettings["CaminhoLog"];
-            System.IO.StreamWriter arquivoRA = new StreamWriter(path + @"\log.txt", true);
+            StreamWriter arquivoRA = new StreamWriter(path + @"\log.txt", true);
             arquivoRA.Write(RA + ";");
             arquivoRA.Close();
         }
