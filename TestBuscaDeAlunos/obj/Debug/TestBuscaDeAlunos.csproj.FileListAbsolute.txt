@@ -8,3 +8,13 @@ C:\Users\Alves\Documents\Visual Studio 2010\Projects\BuscaDeAlunos\TestBuscaDeAl
 C:\Users\Alves\Documents\Visual Studio 2010\Projects\BuscaDeAlunos\TestBuscaDeAlunos\obj\Debug\TestBuscaDeAlunos.csprojResolveAssemblyReference.cache
 C:\Users\Alves\Documents\Visual Studio 2010\Projects\BuscaDeAlunos\TestBuscaDeAlunos\obj\Debug\TestBuscaDeAlunos.dll
 C:\Users\Alves\Documents\Visual Studio 2010\Projects\BuscaDeAlunos\TestBuscaDeAlunos\obj\Debug\TestBuscaDeAlunos.pdb
+C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\TestBuscaDeAlunos\bin\Debug\TestBuscaDeAlunos.dll.config
+C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\TestBuscaDeAlunos\bin\Debug\TestBuscaDeAlunos.dll
+C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\TestBuscaDeAlunos\bin\Debug\TestBuscaDeAlunos.pdb
+C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\TestBuscaDeAlunos\bin\Debug\BuscaDeAlunos.dll
+C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\TestBuscaDeAlunos\bin\Debug\System.Web.Mvc.dll
+C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\TestBuscaDeAlunos\bin\Debug\BuscaDeAlunos.pdb
+C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\TestBuscaDeAlunos\bin\Debug\System.Web.Mvc.xml
+C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\TestBuscaDeAlunos\obj\Debug\TestBuscaDeAlunos.csprojResolveAssemblyReference.cache
+C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\TestBuscaDeAlunos\obj\Debug\TestBuscaDeAlunos.dll
+C:\Users\Alves\Documents\Visual Studio 2010\Projects\busca-de-alunos\TestBuscaDeAlunos\obj\Debug\TestBuscaDeAlunos.pdb
